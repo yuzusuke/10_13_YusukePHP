@@ -48,7 +48,7 @@ if ($status==false) {
             $val = '★★★★★';
         }
 
-        //exit();                                                                              //$result['star']ではなく
+        //exit();                                                                              //$result['star']ではない
         $view .= '<li class="list-group-item">';                                               //$valに置き換える
         $view .= '<p>'.'読者名：'.$result['name'].'<br>'.'書籍名：'.$result['bname'].'<br>'.'評価：'.$val.'<br>'.'URL：'.$result['url'].'<br>'.'コメント：'.$result['comment'].'</p>';
         $view .= '</li>';
